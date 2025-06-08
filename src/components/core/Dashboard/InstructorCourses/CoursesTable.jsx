@@ -73,10 +73,10 @@ const CoursesTable = ({courses,setCourses}) => {
                   className="h-[148px] w-[220px] rounded-lg object-cover"
                 />
                 <div className="flex flex-col justify-between">
-                  <p className="text-lg font-semibold text-richblack-5">
+                  <p className="text-lg font-semibold text-richblack-5 mt-5 lg:mt-0 md:mt-0">
                     {course.courseName}
                   </p>
-                  <p className="text-xs text-richblack-300">
+                  <p className="text-xs text-richblack-300 mt-2">
                     {course.courseDescription.split(" ").length >
                     TRUNCATE_LENGTH
                       ? course.courseDescription
@@ -85,16 +85,16 @@ const CoursesTable = ({courses,setCourses}) => {
                           .join(" ") + "..."
                       : course.courseDescription}
                   </p>
-                  <p className="text-[12px] text-white">
+                  <p className="text-[12px] text-white mt-2">
                     Created: {formatDate(course.createdAt)}
                   </p>
                   {course.status === COURSE_STATUS.DRAFT ? (
-                    <p className="flex w-fit flex-row items-center gap-2 rounded-full bg-richblack-700 px-2 py-[2px] text-[12px] font-medium text-pink-100">
+                    <p className="flex w-fit flex-row items-center gap-2 rounded-full bg-richblack-700 px-2 py-[2px] text-[12px] font-medium text-pink-100 mt-1">
                       <HiClock size={14} />
                       Drafted
                     </p>
                   ) : (
-                    <p className="flex w-fit flex-row items-center gap-2 rounded-full bg-richblack-700 px-2 py-[2px] text-[12px] font-medium text-yellow-100">
+                    <p className="flex w-fit flex-row items-center gap-2 rounded-full bg-richblack-700 px-2 py-[2px] text-[12px] font-medium text-yellow-100 mt-2">
                       <div className="flex h-3 w-3 items-center justify-center rounded-full bg-yellow-100 text-richblack-700">
                         <FaCheck size={8} />
                       </div>
