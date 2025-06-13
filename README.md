@@ -62,7 +62,7 @@ Frontend (React) → Backend (Node/Express) → Database (MongoDB)
 Cloud Services (Cloudinary, Razorpay)
 
 ## Data Models and Database Schema
-
+![database](https://github.com/abhi17bgp/StudyNotion/blob/main/src/assets/Screenshot%202025-06-13%20210323%20(2).jpg)
 
 
 ## Installation
@@ -123,12 +123,5 @@ This project is licensed under the MIT License.
 git clone https://github.com/abhi17bgp/StudyNotion.git
 cd StudyNotion
 
-Deployment Architecture
-Frontend: Hosted on Vercel
 
-Backend: Deployed via Render
-
-Database: Managed by MongoDB Atlas
-
-Media Storage: Powered by Cloudinary
 
