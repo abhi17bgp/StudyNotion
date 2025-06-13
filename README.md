@@ -55,3 +55,87 @@ The platform follows a client-server architecture with three main components:
 1. **Frontend**: React.js application handling UI/UX
 2. **Backend**: Node.js/Express.js server with REST API
 3. **Database**: MongoDB for data persistence
+
+   
+Frontend (React) → Backend (Node/Express) → Database (MongoDB)
+↑
+Cloud Services (Cloudinary, Razorpay)
+
+
+## API Endpoints
+
+Key API endpoints include:
+
+| Endpoint | Method | Description |
+|----------|--------|-------------|
+| `/api/auth/signup` | POST | User registration |
+| `/api/auth/login` | POST | User login |
+| `/api/auth/verify-otp` | POST | OTP verification |
+| `/api/courses` | GET/POST | Get all courses/Create new course |
+| `/api/courses/:id` | GET/PUT/DELETE | Course CRUD operations |
+| `/api/courses/:id/rate` | POST | Rate a course |
+
+## Installation
+
+### Prerequisites
+- Node.js (v16 or higher)
+- MongoDB Atlas account or local MongoDB
+- Cloudinary account
+- Razorpay account
+
+### Backend Setup
+1. Clone the repository
+2. Navigate to backend directory: `cd backend`
+3. Install dependencies: `npm install`
+4. Create a `.env` file based on `.env.example`
+5. Start the server: `npm run dev`
+
+### Frontend Setup
+1. Navigate to frontend directory: `cd frontend`
+2. Install dependencies: `npm install`
+3. Create a `.env` file based on `.env.example`
+4. Start the application: `npm start`
+
+## Deployment
+
+The platform is deployed using:
+- **Frontend**: Vercel
+- **Backend**: Render/Railway
+- **Database**: MongoDB Atlas
+- **Media Storage**: Cloudinary
+
+## Future Enhancements
+- Gamification features (badges, leaderboards)
+- Personalized learning paths
+- Social learning features (discussions, peer feedback)
+- Mobile application
+- AI-powered recommendations
+- VR/AR integration for immersive learning
+
+## Contributors
+
+- [Abhishek Anand](https://github.com/abhi17bgp)
+
+## License
+
+This project is licensed under the MIT License.
+
+---
+
+**Live Demo**: [StudyNotion Web App](https://studynotion-frontend-abhi17bgps-projects.vercel.app/)  
+**Source Code**: [GitHub Repository](https://github.com/abhi17bgp/StudyNotion)
+**Clone the repository**
+   ```bash
+   git clone https://github.com/abhi17bgp/StudyNotion.git
+   cd StudyNotion
+
+StudyNotion is deployed using:
+
+Frontend: Vercel
+
+Backend: Render
+
+Database: MongoDB Atlas
+
+Media Storage: Cloudinary
+
