@@ -121,7 +121,7 @@ function Home() {
                   }
                   codeblock={`import React from "react";\n import CTAButton from "./Button";\nimport useState from "react";\nimport useEffect from "react";\n\nconst Home = () => {\nreturn (\n<div>Home</div>\n)\n}\nexport default Home;`}
                   backgroundGradient={"shadow-[rgba(38,132,182,0.3)_10px_0px_100px_100px]"}
-                  codeColor={"text-yellow-25"}           
+                  codeColor={"text-white"}           
                 />
                 
             </div>
