@@ -37,7 +37,7 @@ const CodeBlocks = ({
 
             </div>
            
-           <div className=' w-full bg-[#0E1A2D]/[0.24] p-4 flex'>
+           <div className=' w-full bg-[#0E1A2D]/[0.24] p-4 flex h-full'>
            
                 
 
