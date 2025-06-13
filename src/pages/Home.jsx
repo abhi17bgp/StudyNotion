@@ -76,21 +76,21 @@ function Home() {
                   subheading={"Our courses are designed and taught by industry experts who have years of experience in coding and are passionate about sharing their knowledge with you."}
                   ctabtn1={
                     {
-                      btntext: "Try is yourself",
+                      btntext: "Try it Yourself",
                       linkto : "/signup",
                       active: true
                     }
                   }
                   ctabtn2={
                     {
-                      btntext: "learn more",
+                      btntext: "Learn More",
                       linkto : "/login",
                       active: false
                     }
                   }
-            codeblock={`<!DOCTYPE html>\n <html lang="en">\n<head>\n<title>This is myPage</title>\n</head>\n<body>\n<h1><a href="/">Header</a></h1>\n<nav> <a href="/one">One</a> <a href="/two">Two</a> <a href="/three">Three</a>\n</nav>\n</body>`}
+            codeblock={`<!DOCTYPE html>\n <html lang="en">\n<head>\n<title>This is myPage</title>\n</head>\n<body>\n<h1><a href="/">Header</a></h1>\n<nav>\n <a href="/one">One</a>\n</nav>\n</body>`}
                   backgroundGradient={"shadow-[rgba(168,106,77,0.3)_10px_0px_100px_110px]"}
-                  codeColor={""}           
+                  codeColor={"text-yellow-50"}           
                 />
                 
             </div>
@@ -107,19 +107,19 @@ function Home() {
                   subheading={"Go ahead, give it a try. Our hands-on learning environment means you'll be writing real code from your very first lesson."}
                   ctabtn1={
                     {
-                      btntext: "Try is yourself",
+                      btntext: "Continue Lesson",
                       linkto : "/signup",
                       active: true
                     }
                   }
                   ctabtn2={
                     {
-                      btntext: "learn more",
+                      btntext: "Learn More",
                       linkto : "/login",
                       active: false
                     }
                   }
-                  codeblock={`import React from "react";\n import CTAButton from "./Button";\nimport TypeAnimation from "react-type";\nimport { FaArrowRight } from "react-icons/fa";\n\nconst Home = () => {\nreturn (\n<div>Home</div>\n)\n}\nexport default Home;`}
+                  codeblock={`import React from "react";\n import CTAButton from "./Button";\nimport useState from "react";\nimport useEffect from "react";\n\nconst Home = () => {\nreturn (\n<div>Home</div>\n)\n}\nexport default Home;`}
                   backgroundGradient={"shadow-[rgba(38,132,182,0.3)_10px_0px_100px_100px]"}
                   codeColor={"text-yellow-25"}           
                 />
