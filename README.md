@@ -61,19 +61,9 @@ Frontend (React) → Backend (Node/Express) → Database (MongoDB)
 ↑
 Cloud Services (Cloudinary, Razorpay)
 
+## Data Models and Database Schema
 
-## API Endpoints
 
-Key API endpoints include:
-
-| Endpoint | Method | Description |
-|----------|--------|-------------|
-| `/api/auth/signup` | POST | User registration |
-| `/api/auth/login` | POST | User login |
-| `/api/auth/verify-otp` | POST | OTP verification |
-| `/api/courses` | GET/POST | Get all courses/Create new course |
-| `/api/courses/:id` | GET/PUT/DELETE | Course CRUD operations |
-| `/api/courses/:id/rate` | POST | Rate a course |
 
 ## Installation
 
@@ -124,18 +114,21 @@ This project is licensed under the MIT License.
 
 **Live Demo**: [StudyNotion Web App](https://studynotion-frontend-abhi17bgps-projects.vercel.app/)  
 **Source Code**: [GitHub Repository](https://github.com/abhi17bgp/StudyNotion)
-**Clone the repository**
-   ```bash
-   git clone https://github.com/abhi17bgp/StudyNotion.git
-   cd StudyNotion
 
-StudyNotion is deployed using:
 
-Frontend: Vercel
 
-Backend: Render
 
-Database: MongoDB Atlas
+### Clone the Repository
+```bash
+git clone https://github.com/abhi17bgp/StudyNotion.git
+cd StudyNotion
 
-Media Storage: Cloudinary
+Deployment Architecture
+Frontend: Hosted on Vercel
+
+Backend: Deployed via Render
+
+Database: Managed by MongoDB Atlas
+
+Media Storage: Powered by Cloudinary
 
