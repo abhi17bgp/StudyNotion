@@ -8,7 +8,7 @@ const ContactUs = () => {
           Got a Idea? We’ve got the skills. Let’s team up
         </h1>
         <p className=' text-base font-medium text-richblack-300 mb-6'>
-          Tall us more about yourself and what you’re got in mind.
+          Tell us more about yourself and what you’re got in mind.
         </p>
         <ContactUsForm/>
     </div>
