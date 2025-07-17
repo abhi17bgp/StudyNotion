@@ -112,7 +112,7 @@ This project is licensed under the MIT License.
 
 ---
 
-**Live Demo**: [StudyNotion Web App](https://studynotion-frontend-abhi17bgps-projects.vercel.app/)  
+**Live Demo**: [StudyNotion Web App]([https://study-notion-two-phi.vercel.app/])  
 **Source Code**: [GitHub Repository](https://github.com/abhi17bgp/StudyNotion)
 
 
